@@ -1,6 +1,6 @@
-input {
-    transform: scale(1.8);
-}
+/* input {
+    transform: scale(1.2);
+} */
 
 #main {
     font-size: 1.4em;
@@ -10,4 +10,13 @@ input {
 body {
     color: white;
     background: #1c1a1a;
+}
+
+#location-sidebar {
+    width: 30vw;
+    min-width: 300px;
+    position: fixed;
+    right: 0;
+    top: 120px;
+    background: inherit;
 }

@@ -17,9 +17,9 @@ chipData.forEach((chip, i) => {
     chip.codes.split("").forEach((code, j) => {
         $($(".chip-codes")[i]).append(`
             <div class="col-sm-2">
-                <div class="w-50 d-flex justify-content-between">
-                    <label for="${chip.name}">${code}</label>
-                    <input type="checkbox" name="${chip.name}-${code}">
+                <div class="w-50 d-flex justify-content-between form-check">
+                    <label class="form-check-label" for="${chip.name}-${code}">${code}</label>
+                    <input class="chip-checkbox form-check-input" type="checkbox" name="${chip.name}-${code}" id="${chip.name}-${code}">
                 </div>
             </div>
         `)
@@ -29,17 +29,8 @@ chipData.forEach((chip, i) => {
 // Retrieve checkbox inputs on page load
 var checked = [];
 
-if (localStorage.getItem("checked") != null) {
-    checked = localStorage.getItem("checked").split(",");
-
-    checked.forEach(inputName => {
-        //console.log(inputName)
-        $(`input[name*='${inputName}']`).prop("checked", true);
-    })
-}
-
 // Save checkbox inputs
-$("input").on("click", function() {
+$(".chip-checkbox").on("click", function() {
     //console.log($(this).attr("name"))
     //console.log($(this).is(':checked'))
 
@@ -52,9 +43,45 @@ $("input").on("click", function() {
         checked.splice(checked.indexOf(chipName), 1);
     }
 
+    console.log(checked)
+
     // console.log(checked)
     // console.log(checked.toString());
 
     localStorage.setItem("checked", checked.toString())
+    countChips();
 
 })
+
+if (localStorage.getItem("checked") != null && localStorage.getItem("checked") != []) {
+    checked = localStorage.getItem("checked").split(",");
+
+    console.log(checked)
+
+    checked.forEach(inputName => {
+        console.log(inputName)
+        $(`.chip-checkbox[name='${inputName}']`).prop("checked", true);
+    })
+}
+
+// Show completion on page load
+function countChips() {
+    let numCollected = 0;
+    
+    $(".chip-row").each(function(i) {
+        if ($(this).find(".chip-checkbox").is(':checked')) {
+            numCollected++;
+        }
+    })
+    
+    $("#num-collected").html(numCollected);
+}
+
+countChips();
+
+// Sidebar toggle
+function toggleLocations() {
+    $("#location-sidebar").toggleClass("d-none");
+    $(".chip-row").toggleClass("col-sm-12");
+    $(".chip-row").toggleClass("col-sm-8");
+}
