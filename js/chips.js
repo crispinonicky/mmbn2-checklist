@@ -3,7 +3,7 @@ window.chipData = [
         "id": 1,
         "name": "Cannon",
         "codes": "ABCDE*",
-        "description": " Cannon for attacking 1 enemy",
+        "description": " Cannon for attacking 1 enemy.\n",
         "damage": 40,
         "element": "None",
         "memory": 16
@@ -12,7 +12,7 @@ window.chipData = [
         "id": 2,
         "name": "HiCannon",
         "codes": "CDEFG*",
-        "description": " Cannon for attacking 1 enemy",
+        "description": " Cannon for attacking 1 enemy.\n",
         "damage": 60,
         "element": "None",
         "memory": 24
@@ -21,7 +21,7 @@ window.chipData = [
         "id": 3,
         "name": "M-Cannon",
         "codes": "EFGHI*",
-        "description": " Cannon for attacking 1 enemy",
+        "description": " Cannon for attacking 1 enemy.\n",
         "damage": 80,
         "element": "None",
         "memory": 32
@@ -30,7 +30,7 @@ window.chipData = [
         "id": 4,
         "name": "ShotGun",
         "codes": "BFHJN*",
-        "description": " Explodes 1 square behind",
+        "description": " Explodes 1 square behind.\n\n",
         "damage": 30,
         "element": "None",
         "memory": 4
@@ -39,7 +39,7 @@ window.chipData = [
         "id": 5,
         "name": "V-Gun",
         "codes": "AFGLP*",
-        "description": " Explodes 2 diagonal squares",
+        "description": " Explodes 2 diagonal squares.\n",
         "damage": 30,
         "element": "None",
         "memory": 4
@@ -48,7 +48,7 @@ window.chipData = [
         "id": 6,
         "name": "CrossGun",
         "codes": "HJMQS*",
-        "description": " Explodes 4 diagonal squares",
+        "description": " Explodes 4 diagonal squares.\n",
         "damage": 30,
         "element": "None",
         "memory": 8
@@ -57,7 +57,7 @@ window.chipData = [
         "id": 7,
         "name": "Spreader",
         "codes": "MNOPQ*",
-        "description": " Creates a large explosion",
+        "description": " Creates a large explosion.\n",
         "damage": 30,
         "element": "Water",
         "memory": 20
@@ -66,7 +66,7 @@ window.chipData = [
         "id": 8,
         "name": "Bubbler",
         "codes": "BGHPR*",
-        "description": " Explodes 1 square behind",
+        "description": " Explodes 1 square behind.\n",
         "damage": 40,
         "element": "Water",
         "memory": 12
@@ -75,7 +75,7 @@ window.chipData = [
         "id": 9,
         "name": "Bub-V",
         "codes": "CDJNS*",
-        "description": " Explodes 2 diagonal squares",
+        "description": " Explodes 2 diagonal squares.\n",
         "damage": 40,
         "element": "Water",
         "memory": 16
@@ -84,7 +84,7 @@ window.chipData = [
         "id": 10,
         "name": "BubCross",
         "codes": "KOPTV*",
-        "description": " Explodes 4 diagonal squares",
+        "description": " Explodes 4 diagonal squares.\n",
         "damage": 40,
         "element": "Water",
         "memory": 20
@@ -93,7 +93,7 @@ window.chipData = [
         "id": 11,
         "name": "BubSprd",
         "codes": "EFILM*",
-        "description": " Creates a large explosion",
+        "description": " Creates a large explosion.\n",
         "damage": 40,
         "element": "Water",
         "memory": 32
@@ -102,7 +102,7 @@ window.chipData = [
         "id": 12,
         "name": "HeatShot",
         "codes": "BGHPR*",
-        "description": " Explodes 1 square behind",
+        "description": " Explodes 1 square behind.\n",
         "damage": 50,
         "element": "Fire",
         "memory": 14
@@ -111,7 +111,7 @@ window.chipData = [
         "id": 13,
         "name": "Heat-V",
         "codes": "CDJNS*",
-        "description": " Explodes 2 diagonal squares",
+        "description": " Explodes 2 diagonal squares.\n",
         "damage": 50,
         "element": "Fire",
         "memory": 18
@@ -120,7 +120,7 @@ window.chipData = [
         "id": 14,
         "name": "HeatCros",
         "codes": "KOPTV*",
-        "description": " Explodes 4 diagonal squares",
+        "description": " Explodes 4 diagonal squares.\n",
         "damage": 50,
         "element": "Fire",
         "memory": 22
@@ -129,7 +129,7 @@ window.chipData = [
         "id": 15,
         "name": "HeatSprd",
         "codes": "EFILM*",
-        "description": " Creates a large explosion",
+        "description": " Creates a large explosion.\n",
         "damage": 50,
         "element": "Fire",
         "memory": 36
@@ -138,7 +138,7 @@ window.chipData = [
         "id": 16,
         "name": "MiniBomb",
         "codes": "BEGLO*",
-        "description": " Throws a bomb 3 squares",
+        "description": " Throws a bomb 3 squares.\n",
         "damage": 50,
         "element": "None",
         "memory": 8
@@ -147,7 +147,7 @@ window.chipData = [
         "id": 17,
         "name": "LilBomb",
         "codes": "FJOQT*",
-        "description": " Bomb that explodes vertically",
+        "description": " Bomb that explodes vertically.\n",
         "damage": 50,
         "element": "None",
         "memory": 12
@@ -156,7 +156,7 @@ window.chipData = [
         "id": 18,
         "name": "CrosBomb",
         "codes": "DJOQT*",
-        "description": " Bomb that explodes in a cross",
+        "description": " Bomb that explodes in a cross.\n",
         "damage": 60,
         "element": "None",
         "memory": 16
@@ -165,7 +165,7 @@ window.chipData = [
         "id": 19,
         "name": "BigBomb",
         "codes": "OQTVY*",
-        "description": " Bomb with a 9-square explosion",
+        "description": " Bomb with a 9-square explosion.\n",
         "damage": 70,
         "element": "None",
         "memory": 32
@@ -174,7 +174,7 @@ window.chipData = [
         "id": 20,
         "name": "TreeBom1",
         "codes": "BGHPR*",
-        "description": " Tree seed! Water for a PowerUp!\nLocation",
+        "description": " Tree seed! Water for a PowerUp!\n",
         "damage": 100,
         "element": "Wood",
         "memory": 10
@@ -183,7 +183,7 @@ window.chipData = [
         "id": 21,
         "name": "TreeBom2",
         "codes": "CDJNS*",
-        "description": " Tree seed! Water for a PowerUp!\nLocation",
+        "description": " Tree seed! Water for a PowerUp!\n",
         "damage": 120,
         "element": "Wood",
         "memory": 15
@@ -192,7 +192,7 @@ window.chipData = [
         "id": 22,
         "name": "TreeBom3",
         "codes": "KOPTV*",
-        "description": " Tree seed! Water for a PowerUp!\nLocation",
+        "description": " Tree seed! Water for a PowerUp!\n",
         "damage": 150,
         "element": "Wood",
         "memory": 20
@@ -201,7 +201,7 @@ window.chipData = [
         "id": 23,
         "name": "Sword",
         "codes": "AKLSY*",
-        "description": " Cut enemy in front! Range is 1",
+        "description": " Cut enemy in front! Range is 1.\n",
         "damage": 80,
         "element": "None",
         "memory": 12
@@ -210,7 +210,7 @@ window.chipData = [
         "id": 24,
         "name": "WideSwrd",
         "codes": "ACLQY*",
-        "description": " Cut enemy in front! Range is 3",
+        "description": " Cut enemy in front! Range is 3.\n",
         "damage": 80,
         "element": "None",
         "memory": 16
@@ -219,7 +219,7 @@ window.chipData = [
         "id": 25,
         "name": "LongSwrd",
         "codes": "AILOY*",
-        "description": " Cut enemy in front! Range is 2",
+        "description": " Cut enemy in front! Range is 2.\n",
         "damage": 80,
         "element": "None",
         "memory": 22
@@ -228,7 +228,7 @@ window.chipData = [
         "id": 26,
         "name": "FireSwrd",
         "codes": "FHNRU*",
-        "description": " Flame sword cuts 3 vertical",
+        "description": " Flame sword cuts 3 vertical.\n",
         "damage": 100,
         "element": "Fire",
         "memory": 24
@@ -237,7 +237,7 @@ window.chipData = [
         "id": 27,
         "name": "AquaSwrd",
         "codes": "AHNRW*",
-        "description": " Water sword cuts 3 vertical\nLocation",
+        "description": " Water sword cuts 3 vertical\n",
         "damage": 100,
         "element": "Water",
         "memory": 26
@@ -246,7 +246,7 @@ window.chipData = [
         "id": 28,
         "name": "ElecSwrd",
         "codes": "EHNRV*",
-        "description": " Electric sword cuts 3 vertical\nLocation",
+        "description": " Electric sword cuts 3 vertical\n",
         "damage": 100,
         "element": "Elec",
         "memory": 28
@@ -255,7 +255,7 @@ window.chipData = [
         "id": 29,
         "name": "FireBlde",
         "codes": "FHPRZ*",
-        "description": " Flame sword cuts 2 horizontal",
+        "description": " Flame sword cuts 2 horizontal.\n",
         "damage": 90,
         "element": "Fire",
         "memory": 32
@@ -264,7 +264,7 @@ window.chipData = [
         "id": 30,
         "name": "AquaBlde",
         "codes": "AFJRZ*",
-        "description": " Water sword cuts 2 horizontal",
+        "description": " Water sword cuts 2 horizontal.\n",
         "damage": 90,
         "element": "Water",
         "memory": 32
@@ -273,7 +273,7 @@ window.chipData = [
         "id": 31,
         "name": "ElecBlde",
         "codes": "EFMNR*",
-        "description": " Electric sword cuts 2 horizontal",
+        "description": " Electric sword cuts 2 horizontal.\n",
         "damage": 90,
         "element": "Elec",
         "memory": 32
@@ -282,7 +282,7 @@ window.chipData = [
         "id": 32,
         "name": "StepSword",
         "codes": "DHMQU*",
-        "description": " Two steps, then use a wide sword",
+        "description": " Two steps, then use a wide sword.\n",
         "damage": 150,
         "element": "None",
         "memory": 54
@@ -291,7 +291,7 @@ window.chipData = [
         "id": 33,
         "name": "Kunai1",
         "codes": "EILPS*",
-        "description": " Kunais up and down 1 square",
+        "description": " Kunais up and down 1 square.\n",
         "damage": 40,
         "element": "None",
         "memory": 48
@@ -300,7 +300,7 @@ window.chipData = [
         "id": 34,
         "name": "Kunai2",
         "codes": "DFJQR*",
-        "description": " Kunais up and down 2 squares",
+        "description": " Kunais up and down 2 squares.\n",
         "damage": 40,
         "element": "None",
         "memory": 64
@@ -309,7 +309,7 @@ window.chipData = [
         "id": 35,
         "name": "Kunai3",
         "codes": "CGHKN*",
-        "description": " Kunais up and down 3 squares",
+        "description": " Kunais up and down 3 squares.\n",
         "damage": 40,
         "element": "None",
         "memory": 78
@@ -318,7 +318,7 @@ window.chipData = [
         "id": 36,
         "name": "CustSwrd",
         "codes": "BGKQT*",
-        "description": " Custom Gauge = Attack Strength",
+        "description": " Custom Gauge = Attack Strength.\n",
         "damage": "???",
         "element": "None",
         "memory": 68
@@ -327,7 +327,7 @@ window.chipData = [
         "id": 37,
         "name": "Muramasa",
         "codes": "NOTUW*",
-        "description": " Sword that uses HPs to attack",
+        "description": " Sword that uses HPs to attack. \n",
         "damage": "???",
         "element": "None",
         "memory": 88
@@ -336,7 +336,7 @@ window.chipData = [
         "id": 38,
         "name": "VarSwrd",
         "codes": "BLNTZ*",
-        "description": " A magical, shifting sword",
+        "description": " A magical, shifting sword.\n",
         "damage": 160,
         "element": "None",
         "memory": 40
@@ -345,7 +345,7 @@ window.chipData = [
         "id": 39,
         "name": "Slasher",
         "codes": "ADHLQ*",
-        "description": " Cuts while A button is held!\nLocation",
+        "description": " Cuts while A button is held!\n",
         "damage": 180,
         "element": "None",
         "memory": 24
@@ -354,7 +354,7 @@ window.chipData = [
         "id": 40,
         "name": "Shockwav",
         "codes": "HJLRU*",
-        "description": " Shock goes through enemies",
+        "description": " Shock goes through enemies.\n",
         "damage": 40,
         "element": "None",
         "memory": 10
@@ -363,7 +363,7 @@ window.chipData = [
         "id": 41,
         "name": "Sonicwav",
         "codes": "EIMSW*",
-        "description": " Shock goes through enemies",
+        "description": " Shock goes through enemies.\n",
         "damage": 60,
         "element": "None",
         "memory": 30
@@ -372,7 +372,7 @@ window.chipData = [
         "id": 42,
         "name": "Dynawav",
         "codes": "GNQTV*",
-        "description": " Shock goes through enemies",
+        "description": " Shock goes through enemies.\n",
         "damage": 90,
         "element": "None",
         "memory": 50
@@ -381,7 +381,7 @@ window.chipData = [
         "id": 43,
         "name": "Quake1",
         "codes": "AMPQW*",
-        "description": " Attack cracks the floor",
+        "description": " Attack cracks the floor.\n",
         "damage": 90,
         "element": "None",
         "memory": 16
@@ -390,7 +390,7 @@ window.chipData = [
         "id": 44,
         "name": "Quake2",
         "codes": "BGNQW*",
-        "description": " Attack cracks the floor",
+        "description": " Attack cracks the floor.\n",
         "damage": 110,
         "element": "None",
         "memory": 32
@@ -399,7 +399,7 @@ window.chipData = [
         "id": 45,
         "name": "Quake3",
         "codes": "CEOQW*",
-        "description": " Attack cracks the floor",
+        "description": " Attack cracks the floor.\n",
         "damage": 130,
         "element": "None",
         "memory": 64
@@ -408,7 +408,7 @@ window.chipData = [
         "id": 46,
         "name": "GutPunch",
         "codes": "BDHKN*",
-        "description": " Punch that punches 1 square",
+        "description": " Punch that punches 1 square.\n",
         "damage": 70,
         "element": "None",
         "memory": 8
@@ -417,7 +417,7 @@ window.chipData = [
         "id": 47,
         "name": "ColdPnch",
         "codes": "BDLPS*",
-        "description": " Cold punch punches 1 square",
+        "description": " Cold punch punches 1 square.\n",
         "damage": 70,
         "element": "Water",
         "memory": 8
@@ -426,7 +426,7 @@ window.chipData = [
         "id": 48,
         "name": "DashAtk",
         "codes": "BDGJL*",
-        "description": " Dash right through enemies",
+        "description": " Dash right through enemies.\n",
         "damage": 90,
         "element": "None",
         "memory": 12
@@ -435,7 +435,7 @@ window.chipData = [
         "id": 49,
         "name": "Wrecker",
         "codes": "OQSUW*",
-        "description": " Can break 3rd square ahead",
+        "description": " Can break 3rd square ahead.\n",
         "damage": 80,
         "element": "None",
         "memory": 16
@@ -444,7 +444,7 @@ window.chipData = [
         "id": 50,
         "name": "CannBall",
         "codes": "l",
-        "description": " Can break 3rd square ahead",
+        "description": " Can break 3rd square ahead.\n",
         "damage": 150,
         "element": "None",
         "memory": null
@@ -453,7 +453,7 @@ window.chipData = [
         "id": 51,
         "name": "DoubNdl",
         "codes": "ACFIJ*",
-        "description": " 2 volleys of needles",
+        "description": " 2 volleys of needles.\n",
         "damage": 50,
         "element": "None",
         "memory": 18
@@ -462,7 +462,7 @@ window.chipData = [
         "id": 52,
         "name": "TripNdl",
         "codes": "CIMTV*",
-        "description": " 3 volleys of needles",
+        "description": " 3 volleys of needles.\n",
         "damage": 50,
         "element": "None",
         "memory": 24
@@ -471,7 +471,7 @@ window.chipData = [
         "id": 53,
         "name": "QuadNdl",
         "codes": "CHIPU*",
-        "description": " 4 volleys of needles",
+        "description": " 4 volleys of needles.\n",
         "damage": 50,
         "element": "None",
         "memory": 30
@@ -480,7 +480,7 @@ window.chipData = [
         "id": 54,
         "name": "Trident",
         "codes": "EIKOT*",
-        "description": "\nLocation",
+        "description": "3 volleys of spears. \n",
         "damage": 60,
         "element": "None",
         "memory": 30
@@ -489,7 +489,7 @@ window.chipData = [
         "id": 55,
         "name": "Ratton1",
         "codes": "HIJKL*",
-        "description": " A crawling rat that turns once",
+        "description": " A crawling rat that turns once.\n",
         "damage": 70,
         "element": "None",
         "memory": 26
@@ -498,7 +498,7 @@ window.chipData = [
         "id": 56,
         "name": "Ratton2",
         "codes": "JKLMN*",
-        "description": " A crawling rat that turns once",
+        "description": " A crawling rat that turns once.\n",
         "damage": 80,
         "element": "None",
         "memory": 32
@@ -507,7 +507,7 @@ window.chipData = [
         "id": 57,
         "name": "Ratton3",
         "codes": "LMNOP*",
-        "description": " A crawling rat that turns once",
+        "description": " A crawling rat that turns once.\n",
         "damage": 90,
         "element": "None",
         "memory": 38
@@ -516,7 +516,7 @@ window.chipData = [
         "id": 58,
         "name": "FireRat",
         "codes": "BFGHR*",
-        "description": " Amazing when lit with fire",
+        "description": " Amazing when lit with fire.\n",
         "damage": 200,
         "element": "None",
         "memory": 30
@@ -525,7 +525,7 @@ window.chipData = [
         "id": 59,
         "name": "Tornado",
         "codes": "EJLMQ*",
-        "description": " 8-hit tornado 2 ahead",
+        "description": " 8-hit tornado 2 ahead.\n",
         "damage": 20,
         "element": "None",
         "memory": 22
@@ -534,7 +534,7 @@ window.chipData = [
         "id": 60,
         "name": "Twister",
         "codes": "NOTUY*",
-        "description": " 8-hit tornado 2 ahead",
+        "description": " 8-hit tornado 2 ahead.\n",
         "damage": 20,
         "element": "Wood",
         "memory": 22
@@ -543,7 +543,7 @@ window.chipData = [
         "id": 61,
         "name": "Blower",
         "codes": "PRTWZ*",
-        "description": "\nLocation",
+        "description": "WindBox blows at enemy area. \n",
         "damage": 20,
         "element": "Fire",
         "memory": 22
@@ -552,7 +552,7 @@ window.chipData = [
         "id": 62,
         "name": "Burner",
         "codes": "ABFLS*",
-        "description": " Envelopes you with flames",
+        "description": " Envelopes you with flames.\n",
         "damage": 150,
         "element": "Fire",
         "memory": 28
@@ -561,7 +561,7 @@ window.chipData = [
         "id": 63,
         "name": "ZapRing1",
         "codes": "1",
-        "description": " Paralyzing electric rings!\nLocation",
+        "description": " Paralyzing electric rings!\n",
         "damage": 20,
         "element": "Elec",
         "memory": null
@@ -570,7 +570,7 @@ window.chipData = [
         "id": 64,
         "name": "ZapRing2",
         "codes": "BGNRS*",
-        "description": " Paralyzing electric rings!\nLocation",
+        "description": " Paralyzing electric rings!\n",
         "damage": 30,
         "element": "Elec",
         "memory": 16
@@ -579,7 +579,7 @@ window.chipData = [
         "id": 65,
         "name": "ZapRing3",
         "codes": "CEOTZ*",
-        "description": " Paralyzing electric rings!\nLocation",
+        "description": " Paralyzing electric rings!\n",
         "damage": 40,
         "element": "Elec",
         "memory": 20
@@ -588,7 +588,7 @@ window.chipData = [
         "id": 66,
         "name": "Satelit1",
         "codes": "GOQUW*",
-        "description": " A floating & spinning satellite",
+        "description": " A floating & spinning satellite.\n",
         "damage": 60,
         "element": "Elec",
         "memory": 20
@@ -597,7 +597,7 @@ window.chipData = [
         "id": 67,
         "name": "Satelit2",
         "codes": "HJKPR*",
-        "description": " A floating & spinning satellite",
+        "description": " A floating & spinning satellite.\n",
         "damage": 80,
         "element": "Elec",
         "memory": 24
@@ -606,7 +606,7 @@ window.chipData = [
         "id": 68,
         "name": "Satelit3",
         "codes": "LSTYZ*",
-        "description": " A floating & spinning satellite",
+        "description": " A floating & spinning satellite.\n",
         "damage": 100,
         "element": "Elec",
         "memory": 28
@@ -615,7 +615,7 @@ window.chipData = [
         "id": 69,
         "name": "Spice1",
         "codes": "ACGQT*",
-        "description": " Unhealthy powder on all grass",
+        "description": " Unhealthy powder on all grass.\n",
         "damage": 100,
         "element": "Wood",
         "memory": 14
@@ -624,7 +624,7 @@ window.chipData = [
         "id": 70,
         "name": "Spice2",
         "codes": "BEHJN*",
-        "description": " Unhealthy powder on all grass",
+        "description": " Unhealthy powder on all grass.\n",
         "damage": 120,
         "element": "Wood",
         "memory": 28
@@ -633,7 +633,7 @@ window.chipData = [
         "id": 71,
         "name": "Spice3",
         "codes": "DKMPQ*",
-        "description": " Unhealthy powder on all grass",
+        "description": " Unhealthy powder on all grass.\n",
         "damage": 140,
         "element": "Wood",
         "memory": 42
@@ -642,7 +642,7 @@ window.chipData = [
         "id": 72,
         "name": "MagBomb1",
         "codes": "FGJMN*",
-        "description": " Stops the enemy in its tracks",
+        "description": " Stops the enemy in its tracks.\n",
         "damage": 80,
         "element": "Elec",
         "memory": 10
@@ -651,7 +651,7 @@ window.chipData = [
         "id": 73,
         "name": "MagBomb2",
         "codes": "BDIRT*",
-        "description": " Stops the enemy in its tracks",
+        "description": " Stops the enemy in its tracks.\n",
         "damage": 100,
         "element": "Elec",
         "memory": 14
@@ -660,7 +660,7 @@ window.chipData = [
         "id": 74,
         "name": "MagBomb3",
         "codes": "HKOQS*",
-        "description": " Stops the enemy in its tracks",
+        "description": " Stops the enemy in its tracks.\n",
         "damage": 120,
         "element": "Elec",
         "memory": 18
@@ -669,7 +669,7 @@ window.chipData = [
         "id": 75,
         "name": "Yo-Yo1",
         "codes": "CERTV*",
-        "description": " A 3-square yo-yo attack!\nLocation",
+        "description": " A 3-square yo-yo attack!\n",
         "damage": 40,
         "element": "None",
         "memory": 36
@@ -678,7 +678,7 @@ window.chipData = [
         "id": 76,
         "name": "Yo-Yo2",
         "codes": "AGJKN*",
-        "description": " A 3-square yo-yo attack!\nLocation",
+        "description": " A 3-square yo-yo attack!\n",
         "damage": 50,
         "element": "None",
         "memory": 40
@@ -687,7 +687,7 @@ window.chipData = [
         "id": 77,
         "name": "Yo-Yo3",
         "codes": "DIMSY*",
-        "description": " A 3-square yo-yo attack!\nLocation",
+        "description": " A 3-square yo-yo attack!\n",
         "damage": 60,
         "element": "None",
         "memory": 44
@@ -696,7 +696,7 @@ window.chipData = [
         "id": 78,
         "name": "CrsShld1",
         "codes": "AOPSZ*",
-        "description": " Guard then bite into the enemy",
+        "description": " Guard then bite into the enemy.\n",
         "damage": 130,
         "element": "None",
         "memory": 18
@@ -705,7 +705,7 @@ window.chipData = [
         "id": 79,
         "name": "CrsShld2",
         "codes": "AOPTV*",
-        "description": " Guard then bite into the enemy",
+        "description": " Guard then bite into the enemy.\n",
         "damage": 170,
         "element": "None",
         "memory": 24
@@ -714,7 +714,7 @@ window.chipData = [
         "id": 80,
         "name": "CrsShld3",
         "codes": "AOPUW*",
-        "description": " Guard then bite into the enemy",
+        "description": " Guard then bite into the enemy.\n",
         "damage": 210,
         "element": "None",
         "memory": 32
@@ -723,7 +723,7 @@ window.chipData = [
         "id": 81,
         "name": "Hammer",
         "codes": "RTUVZ*",
-        "description": " Hammer for smashing things",
+        "description": " Hammer for smashing things.\n",
         "damage": 100,
         "element": "None",
         "memory": 24
@@ -732,7 +732,7 @@ window.chipData = [
         "id": 82,
         "name": "ZeusHamr",
         "codes": "JKOVZ*",
-        "description": " Damage all if panel",
+        "description": " Damage all if panel.\n",
         "damage": 200,
         "element": "None",
         "memory": 70
@@ -741,7 +741,7 @@ window.chipData = [
         "id": 83,
         "name": "Lance",
         "codes": "OPTVY*",
-        "description": " A lance through back line",
+        "description": " A lance through back line.\n",
         "damage": 90,
         "element": "Wood",
         "memory": 20
@@ -750,7 +750,7 @@ window.chipData = [
         "id": 84,
         "name": "BrnzFist",
         "codes": "BNORS*",
-        "description": " Fist of death!\nLocation",
+        "description": " Fist of death!\n",
         "damage": 100,
         "element": "None",
         "memory": 18
@@ -759,7 +759,7 @@ window.chipData = [
         "id": 85,
         "name": "SilvFist",
         "codes": "EILSV*",
-        "description": " Fist of death!\nLocation",
+        "description": " Fist of death!\n",
         "damage": 140,
         "element": "None",
         "memory": 30
@@ -768,7 +768,7 @@ window.chipData = [
         "id": 86,
         "name": "GoldFist",
         "codes": "DGLOZ*",
-        "description": " Fist of death!\nLocation",
+        "description": " Fist of death!\n",
         "damage": 180,
         "element": "None",
         "memory": 60
@@ -777,7 +777,7 @@ window.chipData = [
         "id": 87,
         "name": "PoisMask",
         "codes": "DSUWZ*",
-        "description": " Poison 1 panel with A Button!\nLocation",
+        "description": " Poison 1 panel with A Button!\n",
         "damage": 0,
         "element": "None",
         "memory": 24
@@ -786,7 +786,7 @@ window.chipData = [
         "id": 88,
         "name": "PoisFace",
         "codes": "PQUWY*",
-        "description": " Spread poison w/ A Button!\nLocation",
+        "description": " Spread poison w/ A Button!\n",
         "damage": 0,
         "element": "None",
         "memory": 30
@@ -795,7 +795,7 @@ window.chipData = [
         "id": 89,
         "name": "Whirlpl",
         "codes": "ACEGI*",
-        "description": " Whirlpool kills weak enemies!\nLocation",
+        "description": " Whirlpool kills weak enemies!\n",
         "damage": 0,
         "element": "None",
         "memory": 20
@@ -804,7 +804,7 @@ window.chipData = [
         "id": 90,
         "name": "Blckhole",
         "codes": "BDFHJ*",
-        "description": " Black hole kills weak enemies!\nLocation",
+        "description": " Black hole kills weak enemies!\n",
         "damage": 0,
         "element": "None",
         "memory": 30
@@ -813,7 +813,7 @@ window.chipData = [
         "id": 91,
         "name": "Meteor9",
         "codes": "CELSV*",
-        "description": " 9 fireball rains from the sky",
+        "description": " 9 fireball rains from the sky.\n",
         "damage": 60,
         "element": "Fire",
         "memory": 12
@@ -822,7 +822,7 @@ window.chipData = [
         "id": 92,
         "name": "Meteor12",
         "codes": "ACFJW*",
-        "description": " 12 fireball rains from the sky",
+        "description": " 12 fireball rains from the sky.\n",
         "damage": 80,
         "element": "Fire",
         "memory": 24
@@ -831,7 +831,7 @@ window.chipData = [
         "id": 93,
         "name": "Meteor15",
         "codes": "DGHRZ*",
-        "description": " 15 fireball rains from the sky",
+        "description": " 15 fireball rains from the sky.\n",
         "damage": 100,
         "element": "Fire",
         "memory": 48
@@ -840,7 +840,7 @@ window.chipData = [
         "id": 94,
         "name": "Meteor18",
         "codes": "BGIKO*",
-        "description": " 18 fireball rains from the sky",
+        "description": " 18 fireball rains from the sky.\n",
         "damage": 150,
         "element": "Fire",
         "memory": 60
@@ -849,7 +849,7 @@ window.chipData = [
         "id": 95,
         "name": "TimeBom1",
         "codes": "CGKMZ*",
-        "description": " Count to 0, the bomb explode",
+        "description": " Count to 0, the bomb explode.\n",
         "damage": 170,
         "element": "None",
         "memory": 32
@@ -858,7 +858,7 @@ window.chipData = [
         "id": 96,
         "name": "TimeBom2",
         "codes": "FGKOZ*",
-        "description": " Count to 0, the bomb explode",
+        "description": " Count to 0, the bomb explode.\n",
         "damage": 120,
         "element": "None",
         "memory": 48
@@ -867,7 +867,7 @@ window.chipData = [
         "id": 97,
         "name": "TimeBom3",
         "codes": "EGKPZ*",
-        "description": " Count to 0, the bomb explode",
+        "description": " Count to 0, the bomb explode.\n",
         "damage": 200,
         "element": "None",
         "memory": 64
@@ -876,7 +876,7 @@ window.chipData = [
         "id": 98,
         "name": "LilCloud",
         "codes": "CGIKN*",
-        "description": " Rain damage on one enemies's column",
+        "description": " Rain damage on one enemies's column.\n",
         "damage": 70,
         "element": "Water",
         "memory": 16
@@ -885,7 +885,7 @@ window.chipData = [
         "id": 99,
         "name": "MedCloud",
         "codes": "DHJLO*",
-        "description": " Rain damage on one enemies's column",
+        "description": " Rain damage on one enemies's column.\n",
         "damage": 90,
         "element": "Water",
         "memory": 24
@@ -894,7 +894,7 @@ window.chipData = [
         "id": 100,
         "name": "BigCloud",
         "codes": "QRTVW*",
-        "description": " Rain damage on one enemies's column",
+        "description": " Rain damage on one enemies's column.\n",
         "damage": 110,
         "element": "Water",
         "memory": 32
@@ -903,7 +903,7 @@ window.chipData = [
         "id": 101,
         "name": "Mine",
         "codes": "LNRSV*",
-        "description": " Place mine in enemy area",
+        "description": " Place mine in enemy area.\n",
         "damage": 300,
         "element": "None",
         "memory": 12
@@ -912,7 +912,7 @@ window.chipData = [
         "id": 102,
         "name": "FrntSnsr",
         "codes": "HMQRT*",
-        "description": " Automatic dynamite device",
+        "description": " Automatic dynamite device.\n",
         "damage": 100,
         "element": "None",
         "memory": 14
@@ -921,7 +921,7 @@ window.chipData = [
         "id": 103,
         "name": "DblSnsr",
         "codes": "EJPWY*",
-        "description": " Diagonal dynamite device",
+        "description": " Diagonal dynamite device.\n",
         "damage": 100,
         "element": "None",
         "memory": 24
@@ -930,7 +930,7 @@ window.chipData = [
         "id": 104,
         "name": "Remobit1",
         "codes": "EGJKN*",
-        "description": " Generates remobit in enemy area",
+        "description": " Generates remobit in enemy area.\n",
         "damage": 80,
         "element": "Elec",
         "memory": 8
@@ -939,7 +939,7 @@ window.chipData = [
         "id": 105,
         "name": "Remobit2",
         "codes": "BFIRU*",
-        "description": " Generates remobit in enemy area",
+        "description": " Generates remobit in enemy area.\n",
         "damage": 80,
         "element": "Elec",
         "memory": 16
@@ -948,7 +948,7 @@ window.chipData = [
         "id": 106,
         "name": "Remobit3",
         "codes": "ALMTY*",
-        "description": " Generates remobit in enemy area",
+        "description": " Generates remobit in enemy area.\n",
         "damage": 80,
         "element": "Elec",
         "memory": 32
@@ -957,7 +957,7 @@ window.chipData = [
         "id": 107,
         "name": "AquaBall",
         "codes": "ABQTW*",
-        "description": " Pops when it hits something",
+        "description": " Pops when it hits something.\n",
         "damage": 10,
         "element": "Water",
         "memory": 20
@@ -966,7 +966,7 @@ window.chipData = [
         "id": 108,
         "name": "ElecBall",
         "codes": "EHJKV*",
-        "description": " Pops when it hits something",
+        "description": " Pops when it hits something.\n",
         "damage": 10,
         "element": "Elec",
         "memory": 20
@@ -975,7 +975,7 @@ window.chipData = [
         "id": 109,
         "name": "HeatBall",
         "codes": "CFRSU*",
-        "description": " Pops when it hits something",
+        "description": " Pops when it hits something.\n",
         "damage": 10,
         "element": "Fire",
         "memory": 20
@@ -984,7 +984,7 @@ window.chipData = [
         "id": 110,
         "name": "Geyser",
         "codes": "ABDLS*",
-        "description": " Geyser if there is no panel",
+        "description": " Geyser if there is no panel.\n",
         "damage": 200,
         "element": "Water",
         "memory": 40
@@ -993,7 +993,7 @@ window.chipData = [
         "id": 111,
         "name": "LavaDrag",
         "codes": "FGORY*",
-        "description": " \nLocation",
+        "description": " Summons a nasty lava dragon!\n",
         "damage": 200,
         "element": "Fire",
         "memory": 60
@@ -1002,7 +1002,7 @@ window.chipData = [
         "id": 112,
         "name": "GodStone",
         "codes": "EILQU*",
-        "description": " Summons a God Stone!\nLocation",
+        "description": " Summons a God Stone!\n",
         "damage": 150,
         "element": "None",
         "memory": 60
@@ -1011,7 +1011,7 @@ window.chipData = [
         "id": 113,
         "name": "OldWood",
         "codes": "CMSTW*",
-        "description": " Summons Old Wood!\nLocation",
+        "description": " Summons Old Wood!\n",
         "damage": 100,
         "element": "Wood",
         "memory": 60
@@ -1020,7 +1020,7 @@ window.chipData = [
         "id": 114,
         "name": "Guard",
         "codes": "*",
-        "description": " Repel the enemy's attack",
+        "description": " Repel the enemy's attack.\n",
         "damage": 0,
         "element": "None",
         "memory": 2
@@ -1029,7 +1029,7 @@ window.chipData = [
         "id": 115,
         "name": "PanlOut1",
         "codes": "ABDLS*",
-        "description": " Destroy 1 panel in front",
+        "description": " Destroy 1 panel in front.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 4
@@ -1038,7 +1038,7 @@ window.chipData = [
         "id": 116,
         "name": "PanlOut3",
         "codes": "CENRY*",
-        "description": " Destroy 3 panels in front",
+        "description": " Destroy 3 panels in front.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 8
@@ -1056,7 +1056,7 @@ window.chipData = [
         "id": 118,
         "name": "Catcher",
         "codes": "FIJNT*",
-        "description": " Sends UFO to steal a chip",
+        "description": " Sends UFO to steal a chip.\n",
         "damage": 0,
         "element": "None",
         "memory": 12
@@ -1065,7 +1065,7 @@ window.chipData = [
         "id": 119,
         "name": "Mindbndr",
         "codes": "DIMNT*",
-        "description": " Enemy loses control",
+        "description": " Enemy loses control.\n",
         "damage": 0,
         "element": "None",
         "memory": 38
@@ -1074,7 +1074,7 @@ window.chipData = [
         "id": 120,
         "name": "Recov10",
         "codes": "ACEGL*",
-        "description": " Recovers 10HP",
+        "description": " Recovers 10HP.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 2
@@ -1083,7 +1083,7 @@ window.chipData = [
         "id": 121,
         "name": "Recov30",
         "codes": "BDFHM*",
-        "description": " Recovers 30 HP",
+        "description": " Recovers 30 HP.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 4
@@ -1092,7 +1092,7 @@ window.chipData = [
         "id": 122,
         "name": "Recov50",
         "codes": "CEGIN*",
-        "description": " Recovers 50 HP",
+        "description": " Recovers 50 HP.\n",
         "damage": 0,
         "element": "None",
         "memory": 8
@@ -1101,7 +1101,7 @@ window.chipData = [
         "id": 123,
         "name": "Recov80",
         "codes": "DFHJO*",
-        "description": " Recovers 80HP",
+        "description": " Recovers 80HP.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 16
@@ -1110,7 +1110,7 @@ window.chipData = [
         "id": 124,
         "name": "Recov120",
         "codes": "OQSUW*",
-        "description": " Recovers 120HP",
+        "description": " Recovers 120HP.\n",
         "damage": 0,
         "element": "None",
         "memory": 32
@@ -1119,7 +1119,7 @@ window.chipData = [
         "id": 125,
         "name": "Recov150",
         "codes": "NPRTV*",
-        "description": " Recovers 150HP",
+        "description": " Recovers 150HP.\n",
         "damage": 0,
         "element": "None",
         "memory": 48
@@ -1128,7 +1128,7 @@ window.chipData = [
         "id": 126,
         "name": "Recov200",
         "codes": "MNUVW*",
-        "description": " Recovers 200HP",
+        "description": " Recovers 200HP.\n",
         "damage": 0,
         "element": "None",
         "memory": 64
@@ -1137,7 +1137,7 @@ window.chipData = [
         "id": 127,
         "name": "Recov300",
         "codes": "ORVWZ*",
-        "description": " Recovers 300HP",
+        "description": " Recovers 300HP.\n",
         "damage": 0,
         "element": "None",
         "memory": 80
@@ -1146,7 +1146,7 @@ window.chipData = [
         "id": 128,
         "name": "PanlGrab",
         "codes": "BHKLP*",
-        "description": " Steals 1 enemy square!\nLocation",
+        "description": " Steals 1 enemy square!\n",
         "damage": 0,
         "element": "None",
         "memory": 4
@@ -1155,7 +1155,7 @@ window.chipData = [
         "id": 129,
         "name": "AreaGrab",
         "codes": "ELRSZ*",
-        "description": " Steals left edge from enemy",
+        "description": " Steals left edge from enemy.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 8
@@ -1164,7 +1164,7 @@ window.chipData = [
         "id": 130,
         "name": "GrabRvng",
         "codes": "ALPSW*",
-        "description": " Punishes for stolen panels!\nLocation",
+        "description": " Punishes for stolen panels!\n",
         "damage": 0,
         "element": "None",
         "memory": 24
@@ -1173,7 +1173,7 @@ window.chipData = [
         "id": 131,
         "name": "Geddon1",
         "codes": "CKLQS*",
-        "description": " Cracks all panels!\nLocation",
+        "description": " Cracks all panels!\n",
         "damage": 0,
         "element": "None",
         "memory": 16
@@ -1182,7 +1182,7 @@ window.chipData = [
         "id": 132,
         "name": "Geddon2",
         "codes": "JMRTZ*",
-        "description": " Breaks all empty squares!\nLocation",
+        "description": " Breaks all empty squares!\n",
         "damage": 0,
         "element": "None",
         "memory": 32
@@ -1191,7 +1191,7 @@ window.chipData = [
         "id": 133,
         "name": "Geddon3",
         "codes": "EJNPY*",
-        "description": " Turns all panels to swamp!\nLocation",
+        "description": " Turns all panels to swamp!\n",
         "damage": 0,
         "element": "None",
         "memory": 48
@@ -1200,7 +1200,7 @@ window.chipData = [
         "id": 134,
         "name": "Escape",
         "codes": "FHJLN*",
-        "description": " Escapes from some enemies",
+        "description": " Escapes from some enemies.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 64
@@ -1209,7 +1209,7 @@ window.chipData = [
         "id": 135,
         "name": "AirShoes",
         "codes": "AJOVZ*",
-        "description": " Stand on empty square",
+        "description": " Stand on empty square.\n",
         "damage": 0,
         "element": "None",
         "memory": 12
@@ -1218,7 +1218,7 @@ window.chipData = [
         "id": 136,
         "name": "Repair",
         "codes": "ACELP*",
-        "description": " Fixes your side's panels",
+        "description": " Fixes your side's panels.\n",
         "damage": 0,
         "element": "None",
         "memory": 8
@@ -1227,7 +1227,7 @@ window.chipData = [
         "id": 137,
         "name": "Candle1",
         "codes": "CFIMV*",
-        "description": " Places a healing candle",
+        "description": " Places a healing candle.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 50
@@ -1236,7 +1236,7 @@ window.chipData = [
         "id": 138,
         "name": "Candle2",
         "codes": "AGJLT*",
-        "description": " Places a healing candle",
+        "description": " Places a healing candle.\n",
         "damage": 0,
         "element": "None",
         "memory": 60
@@ -1245,7 +1245,7 @@ window.chipData = [
         "id": 139,
         "name": "Candle3",
         "codes": "BEHNW*",
-        "description": " Places a healing candle",
+        "description": " Places a healing candle.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 70
@@ -1254,7 +1254,7 @@ window.chipData = [
         "id": 140,
         "name": "RockCube",
         "codes": "BDGMV*",
-        "description": " Places a stone cube in front",
+        "description": " Places a stone cube in front.\n",
         "damage": 0,
         "element": "None",
         "memory": 16
@@ -1263,7 +1263,7 @@ window.chipData = [
         "id": 141,
         "name": "Prism",
         "codes": "BCLNQ*",
-        "description": " Shoots all over after it hits",
+        "description": " Shoots all over after it hits.\n",
         "damage": 0,
         "element": "None",
         "memory": 24
@@ -1272,7 +1272,7 @@ window.chipData = [
         "id": 142,
         "name": "Guardian",
         "codes": "OPUVZ*",
-        "description": " Statue punishes when hit",
+        "description": " Statue punishes when hit.\n",
         "damage": 0,
         "element": "None",
         "memory": 54
@@ -1281,7 +1281,7 @@ window.chipData = [
         "id": 143,
         "name": "Wind",
         "codes": "GJOQT*",
-        "description": " WindBox blows at enemy area",
+        "description": " WindBox blows at enemy area.\n",
         "damage": 0,
         "element": "None",
         "memory": 10
@@ -1290,7 +1290,7 @@ window.chipData = [
         "id": 144,
         "name": "Fan",
         "codes": "AGLNY*",
-        "description": " VacuumFan sucks from enemy area",
+        "description": " VacuumFan sucks from enemy area.\n",
         "damage": 0,
         "element": "None",
         "memory": 10
@@ -1299,7 +1299,7 @@ window.chipData = [
         "id": 145,
         "name": "Anubis",
         "codes": "HKMUW*",
-        "description": " Anubis poisons enemy area",
+        "description": " Anubis poisons enemy area.\n",
         "damage": 0,
         "element": "None",
         "memory": 90
@@ -1308,7 +1308,7 @@ window.chipData = [
         "id": 146,
         "name": "SloGauge",
         "codes": "*",
-        "description": " Cust Gauge slows down for battle",
+        "description": " Cust Gauge slows down for battle.\n",
         "damage": 0,
         "element": "None",
         "memory": 10
@@ -1317,7 +1317,7 @@ window.chipData = [
         "id": 147,
         "name": "FstGauge",
         "codes": "*",
-        "description": " Cust Gauge speeds up for battle",
+        "description": " Cust Gauge speeds up for battle.\n",
         "damage": 0,
         "element": "None",
         "memory": 10
@@ -1335,7 +1335,7 @@ window.chipData = [
         "id": 149,
         "name": "Invis1",
         "codes": "AFLRU*",
-        "description": " Invisible for a while",
+        "description": " Invisible for a while.\n",
         "damage": 0,
         "element": "None",
         "memory": 12
@@ -1344,7 +1344,7 @@ window.chipData = [
         "id": 150,
         "name": "Invis2",
         "codes": "BHMQV*",
-        "description": " Invisible for a while",
+        "description": " Invisible for a while.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 24
@@ -1353,7 +1353,7 @@ window.chipData = [
         "id": 151,
         "name": "Invis3",
         "codes": "CGKPW*",
-        "description": " Invisible for a while",
+        "description": " Invisible for a while.\n",
         "damage": 0,
         "element": "None",
         "memory": 48
@@ -1362,7 +1362,7 @@ window.chipData = [
         "id": 152,
         "name": "Dropdown",
         "codes": "ACFQS*",
-        "description": " Invisible until you attack!\nLocation",
+        "description": " Invisible until you attack!\n",
         "damage": 0,
         "element": "None",
         "memory": 64
@@ -1371,7 +1371,7 @@ window.chipData = [
         "id": 153,
         "name": "PopUp",
         "codes": "DIJTW*",
-        "description": " Invisible except for attack!\nLocation",
+        "description": " Invisible except for attack!\n",
         "damage": 0,
         "element": "None",
         "memory": 84
@@ -1380,7 +1380,7 @@ window.chipData = [
         "id": 154,
         "name": "StoneBod",
         "codes": "CESTW*",
-        "description": " Stone body takes only 1HP damage",
+        "description": " Stone body takes only 1HP damage.\n",
         "damage": 0,
         "element": "None",
         "memory": 64
@@ -1389,7 +1389,7 @@ window.chipData = [
         "id": 155,
         "name": "Shadow1",
         "codes": "BGHLR*",
-        "description": " Only sword attacks hurt you",
+        "description": " Only sword attacks hurt you.\n",
         "damage": 0,
         "element": "None",
         "memory": 32
@@ -1398,7 +1398,7 @@ window.chipData = [
         "id": 156,
         "name": "Shadow2",
         "codes": "DEJMT*",
-        "description": " Only sword attacks hurt you",
+        "description": " Only sword attacks hurt you.\n\n",
         "damage": 0,
         "element": "None",
         "memory": 48
@@ -1407,7 +1407,7 @@ window.chipData = [
         "id": 157,
         "name": "Shadow3",
         "codes": "CFKNV*",
-        "description": " Only sword attacks hurt you",
+        "description": " Only sword attacks hurt you.\n",
         "damage": 0,
         "element": "None",
         "memory": 64
@@ -1425,7 +1425,7 @@ window.chipData = [
         "id": 159,
         "name": "Barrier",
         "codes": "BELST*",
-        "description": " Nullify damage one time!\nLocation",
+        "description": " Nullify damage one time!\n",
         "damage": 0,
         "element": "None",
         "memory": 8
@@ -1434,7 +1434,7 @@ window.chipData = [
         "id": 160,
         "name": "BublWrap",
         "codes": "IJQRW*",
-        "description": " Water barrier reforms",
+        "description": " Water barrier reforms.\n",
         "damage": 0,
         "element": "Water",
         "memory": 36
@@ -1443,7 +1443,7 @@ window.chipData = [
         "id": 161,
         "name": "LeafShld",
         "codes": "ADRSW*",
-        "description": " Next attack heals you",
+        "description": " Next attack heals you.\n",
         "damage": 0,
         "element": "Wood",
         "memory": 26
@@ -1452,7 +1452,7 @@ window.chipData = [
         "id": 162,
         "name": "AquaAura",
         "codes": "AWIMQ*",
-        "description": " Repels attacks under 10",
+        "description": " Repels attacks under 10.\n",
         "damage": 0,
         "element": "Water",
         "memory": 30
@@ -1461,7 +1461,7 @@ window.chipData = [
         "id": 163,
         "name": "FireAura",
         "codes": "BFJNR*",
-        "description": " Repels attacks under 40",
+        "description": " Repels attacks under 40.\n",
         "damage": 0,
         "element": "Fire",
         "memory": 36
@@ -1470,7 +1470,7 @@ window.chipData = [
         "id": 164,
         "name": "WoodAura",
         "codes": "CGJOS*",
-        "description": " Repels attacks under 80",
+        "description": " Repels attacks under 80.\n",
         "damage": 0,
         "element": "Wood",
         "memory": 42
@@ -1479,7 +1479,7 @@ window.chipData = [
         "id": 165,
         "name": "ElecAura",
         "codes": "DHLPT*",
-        "description": " Repels attacks under 100",
+        "description": " Repels attacks under 100.\n",
         "damage": 0,
         "element": "Elec",
         "memory": 48
@@ -1488,7 +1488,7 @@ window.chipData = [
         "id": 166,
         "name": "LifeAura1",
         "codes": "BGIOQ*",
-        "description": " Repels all attacks under 100",
+        "description": " Repels all attacks under 100.\n",
         "damage": 0,
         "element": "None",
         "memory": 60
@@ -1497,7 +1497,7 @@ window.chipData = [
         "id": 167,
         "name": "LifeAura2",
         "codes": "DFJNR*",
-        "description": " Repels all attacks under 150",
+        "description": " Repels all attacks under 150.\n",
         "damage": 0,
         "element": "None",
         "memory": 70
@@ -1506,7 +1506,7 @@ window.chipData = [
         "id": 168,
         "name": "LifeAura3",
         "codes": "EHKMT*",
-        "description": " Repels all attacks under 200",
+        "description": " Repels all attacks under 200.\n",
         "damage": 0,
         "element": "None",
         "memory": 80
@@ -1515,7 +1515,7 @@ window.chipData = [
         "id": 169,
         "name": "MagLine",
         "codes": "AEIMQ*",
-        "description": " Changes your line to magnet",
+        "description": " Changes your line to magnet.\n",
         "damage": 0,
         "element": "None",
         "memory": 24
@@ -1524,7 +1524,7 @@ window.chipData = [
         "id": 170,
         "name": "LavaLine",
         "codes": "AFJMR*",
-        "description": " Changes your line to lava",
+        "description": " Changes your line to lava.\n",
         "damage": 0,
         "element": "None",
         "memory": 24
@@ -1533,7 +1533,7 @@ window.chipData = [
         "id": 171,
         "name": "IceLine",
         "codes": "BEJNQ*",
-        "description": " Changes your line to ice",
+        "description": " Changes your line to ice.\n",
         "damage": 0,
         "element": "None",
         "memory": 24
@@ -1542,7 +1542,7 @@ window.chipData = [
         "id": 172,
         "name": "GrassLine",
         "codes": "BFINR*",
-        "description": " Changes your line to grass",
+        "description": " Changes your line to grass.\n",
         "damage": 0,
         "element": "None",
         "memory": 24
@@ -1551,7 +1551,7 @@ window.chipData = [
         "id": 173,
         "name": "LavaStage",
         "codes": "DHMUV*",
-        "description": " Changes all panels to lava",
+        "description": " Changes all panels to lava.\n",
         "damage": 0,
         "element": "None",
         "memory": 64
@@ -1560,7 +1560,7 @@ window.chipData = [
         "id": 174,
         "name": "IceStage",
         "codes": "ACEIS*",
-        "description": " Changes all panels to ice",
+        "description": " Changes all panels to ice.\n",
         "damage": 0,
         "element": "None",
         "memory": 64
@@ -1569,7 +1569,7 @@ window.chipData = [
         "id": 175,
         "name": "GrassStage",
         "codes": "BDHPR*",
-        "description": " Changes all panels to grass",
+        "description": " Changes all panels to grass.\n",
         "damage": 0,
         "element": "None",
         "memory": 64
@@ -1578,7 +1578,7 @@ window.chipData = [
         "id": 176,
         "name": "HolyPanl",
         "codes": "CEHLR*",
-        "description": " Makes all panels holy",
+        "description": " Makes all panels holy.\n",
         "damage": 0,
         "element": "None",
         "memory": 64
@@ -1587,7 +1587,7 @@ window.chipData = [
         "id": 177,
         "name": "Jealosy",
         "codes": "EJORU*",
-        "description": " More chips means more damage",
+        "description": " More chips means more damage.\n",
         "damage": 0,
         "element": "None",
         "memory": 22
@@ -1596,7 +1596,7 @@ window.chipData = [
         "id": 178,
         "name": "AntiFire",
         "codes": "FKLPT*",
-        "description": " Punishes enemy for using fire",
+        "description": " Punishes enemy for using fire.\n",
         "damage": 0,
         "element": "Fire",
         "memory": 32
@@ -1605,7 +1605,7 @@ window.chipData = [
         "id": 179,
         "name": "AntiElec",
         "codes": "EHNUY*",
-        "description": " Punishes enemy for using elec",
+        "description": " Punishes enemy for using elec.\n",
         "damage": 0,
         "element": "Elec",
         "memory": 32
@@ -1614,7 +1614,7 @@ window.chipData = [
         "id": 180,
         "name": "AntiWatr",
         "codes": "ADQWZ*",
-        "description": " Punishes enemy for using\nLocation",
+        "description": " Punishes enemy for using\n",
         "damage": 0,
         "element": "Water",
         "memory": 32
@@ -1623,7 +1623,7 @@ window.chipData = [
         "id": 181,
         "name": "AntiDmg",
         "codes": "CJMRS*",
-        "description": " Fake pain and throw shurikens!\nLocation",
+        "description": " Fake pain and throw shurikens!\n",
         "damage": 0,
         "element": "None",
         "memory": 32
@@ -1632,7 +1632,7 @@ window.chipData = [
         "id": 182,
         "name": "AntiSword",
         "codes": "DHIMT*",
-        "description": " Punishes use of swords",
+        "description": " Punishes use of swords.\n",
         "damage": 0,
         "element": "None",
         "memory": 32
@@ -1641,7 +1641,7 @@ window.chipData = [
         "id": 183,
         "name": "AntiNavi",
         "codes": "KLOTX*",
-        "description": " Take the enemyâ€™s Navi away",
+        "description": " Take the enemy's Navi away.\n",
         "damage": 0,
         "element": "None",
         "memory": 32
@@ -1650,7 +1650,7 @@ window.chipData = [
         "id": 184,
         "name": "AntiRecv",
         "codes": "BDMPW",
-        "description": " Punish the recovery of HPs!\nLocation",
+        "description": " Punish the recovery of HPs!\n",
         "damage": 0,
         "element": "None",
         "memory": 32
@@ -1668,7 +1668,7 @@ window.chipData = [
         "id": 186,
         "name": "Atk+20",
         "codes": "*",
-        "description": " +20 to selected AtkChip!\nLocation",
+        "description": " +20 to selected AtkChip!\n",
         "damage": 0,
         "element": "None",
         "memory": 20
@@ -1686,7 +1686,7 @@ window.chipData = [
         "id": 188,
         "name": "Fire+40",
         "codes": "*",
-        "description": " Adds 40 to Fire AttackChip\nLocation",
+        "description": " Adds 40 to Fire AttackChip\n",
         "damage": 0,
         "element": "None",
         "memory": 12
@@ -1713,7 +1713,7 @@ window.chipData = [
         "id": 191,
         "name": "Elec+40",
         "codes": "*",
-        "description": " Adds 40 to Elec AttackChip\nLocation",
+        "description": " Adds 40 to Elec AttackChip\n",
         "damage": 0,
         "element": "None",
         "memory": 12
@@ -1722,7 +1722,7 @@ window.chipData = [
         "id": 192,
         "name": "Navi+20",
         "codes": "*",
-        "description": " +20 to selected NaviChip!\nLocation",
+        "description": " +20 to selected NaviChip!\n",
         "damage": 0,
         "element": "None",
         "memory": 24
@@ -1731,7 +1731,7 @@ window.chipData = [
         "id": 193,
         "name": "Navi+40",
         "codes": "*",
-        "description": " +40 to selected NaviChip!\nLocation",
+        "description": " +40 to selected NaviChip!\n",
         "damage": 0,
         "element": "None",
         "memory": 42
@@ -1740,7 +1740,7 @@ window.chipData = [
         "id": 194,
         "name": "Roll",
         "codes": "R*",
-        "description": " Attacks 1 enemy then heals you",
+        "description": " Attacks 1 enemy then heals you.\n",
         "damage": 60,
         "element": "None",
         "memory": 8
@@ -1749,7 +1749,7 @@ window.chipData = [
         "id": 195,
         "name": "RollV2",
         "codes": "R*",
-        "description": " Attacks 1 enemy then heals you",
+        "description": " Attacks 1 enemy then heals you.\n",
         "damage": 80,
         "element": "None",
         "memory": 24
@@ -1758,7 +1758,7 @@ window.chipData = [
         "id": 196,
         "name": "RollV3",
         "codes": "R*",
-        "description": " Attacks 1 enemy then heals you",
+        "description": " Attacks 1 enemy then heals you.\n",
         "damage": 100,
         "element": "None",
         "memory": 48
@@ -1767,7 +1767,7 @@ window.chipData = [
         "id": 197,
         "name": "Gutsman",
         "codes": "G*",
-        "description": " Creeps and smashes panels!\nLocation",
+        "description": " Creeps and smashes panels!\n",
         "damage": 50,
         "element": "None",
         "memory": 32
@@ -1776,7 +1776,7 @@ window.chipData = [
         "id": 198,
         "name": "GutsmanV2",
         "codes": "G*",
-        "description": " Creeps and smashes panels!\nLocation",
+        "description": " Creeps and smashes panels!\n",
         "damage": 70,
         "element": "None",
         "memory": 48
@@ -1785,7 +1785,7 @@ window.chipData = [
         "id": 199,
         "name": "GutsmanV3",
         "codes": "G*",
-        "description": " Creeps and smashes panels!\nLocation",
+        "description": " Creeps and smashes panels!\n",
         "damage": 90,
         "element": "None",
         "memory": 64
@@ -1794,7 +1794,7 @@ window.chipData = [
         "id": 200,
         "name": "Protoman",
         "codes": "B*",
-        "description": " Swings sword at enemy face",
+        "description": " Swings sword at enemy face.\n",
         "damage": 120,
         "element": "None",
         "memory": 52
@@ -1803,7 +1803,7 @@ window.chipData = [
         "id": 201,
         "name": "ProtomanV2",
         "codes": "B*",
-        "description": " Swings sword at enemy face",
+        "description": " Swings sword at enemy face.\n",
         "damage": 160,
         "element": "None",
         "memory": 64
@@ -1812,7 +1812,7 @@ window.chipData = [
         "id": 202,
         "name": "ProtomanV3",
         "codes": "B*",
-        "description": " Swings sword at enemy face",
+        "description": " Swings sword at enemy face.\n",
         "damage": 200,
         "element": "None",
         "memory": 76
@@ -1821,7 +1821,7 @@ window.chipData = [
         "id": 203,
         "name": "Airman",
         "codes": "A*",
-        "description": " Shoots air twisters in a line",
+        "description": " Shoots air twisters in a line.\n",
         "damage": 40,
         "element": "None",
         "memory": 16
@@ -1830,7 +1830,7 @@ window.chipData = [
         "id": 204,
         "name": "AirmanV2",
         "codes": "A*",
-        "description": " Shoots air twisters in a line",
+        "description": " Shoots air twisters in a line.\n",
         "damage": 70,
         "element": "None",
         "memory": 34
@@ -1839,7 +1839,7 @@ window.chipData = [
         "id": 205,
         "name": "AirmanV3",
         "codes": "A*",
-        "description": " Shoots air twisters in a line",
+        "description": " Shoots air twisters in a line.\n",
         "damage": 100,
         "element": "None",
         "memory": 52
@@ -1848,7 +1848,7 @@ window.chipData = [
         "id": 206,
         "name": "Quickman",
         "codes": "Q*",
-        "description": " Boomerang attacks whole row",
+        "description": " Boomerang attacks whole row.\n",
         "damage": 50,
         "element": "None",
         "memory": 32
@@ -1857,7 +1857,7 @@ window.chipData = [
         "id": 207,
         "name": "QuickmanV2",
         "codes": "Q*",
-        "description": " Boomerang attacks whole row",
+        "description": " Boomerang attacks whole row.\n",
         "damage": 70,
         "element": "None",
         "memory": 56
@@ -1866,7 +1866,7 @@ window.chipData = [
         "id": 208,
         "name": "QuickmanV3",
         "codes": "Q*",
-        "description": " Boomerang attacks whole row",
+        "description": " Boomerang attacks whole row.\n",
         "damage": 100,
         "element": "None",
         "memory": 80
@@ -1875,7 +1875,7 @@ window.chipData = [
         "id": 209,
         "name": "Cutman",
         "codes": "C*",
-        "description": " Scissor attacks one square",
+        "description": " Scissor attacks one square.\n",
         "damage": 150,
         "element": "None",
         "memory": 20
@@ -1884,7 +1884,7 @@ window.chipData = [
         "id": 210,
         "name": "CutmanV2",
         "codes": "C*",
-        "description": " Scissor attacks one square",
+        "description": " Scissor attacks one square.\n",
         "damage": 200,
         "element": "None",
         "memory": 50
@@ -1893,7 +1893,7 @@ window.chipData = [
         "id": 211,
         "name": "CutmanV3",
         "codes": "C*",
-        "description": " Scissor attacks one square",
+        "description": " Scissor attacks one square.\n",
         "damage": 300,
         "element": "None",
         "memory": 80
@@ -1902,7 +1902,7 @@ window.chipData = [
         "id": 212,
         "name": "ShadowMan",
         "codes": "S*",
-        "description": " Splits and shoots 3 shurikens!\nLocation",
+        "description": " Splits and shoots 3 shurikens!\n",
         "damage": 60,
         "element": "None",
         "memory": 64
@@ -1911,7 +1911,7 @@ window.chipData = [
         "id": 213,
         "name": "ShadowManV2",
         "codes": "S*",
-        "description": " Splits and shoots 3 shurikens!\nLocation",
+        "description": " Splits and shoots 3 shurikens!\n",
         "damage": 70,
         "element": "None",
         "memory": 80
@@ -1920,7 +1920,7 @@ window.chipData = [
         "id": 214,
         "name": "ShadowManV3",
         "codes": "S*",
-        "description": " Splits and shoots 3 shurikens!\nLocation",
+        "description": " Splits and shoots 3 shurikens!\n",
         "damage": 80,
         "element": "None",
         "memory": 96
@@ -1929,7 +1929,7 @@ window.chipData = [
         "id": 215,
         "name": "KnightMan",
         "codes": "K*",
-        "description": " Smashes enemies in circle!\nLocation",
+        "description": " Smashes enemies in circle!\n",
         "damage": 160,
         "element": "None",
         "memory": 64
@@ -1938,7 +1938,7 @@ window.chipData = [
         "id": 216,
         "name": "KnightManV2",
         "codes": "K*",
-        "description": " Smashes enemies in circle!\nLocation",
+        "description": " Smashes enemies in circle!\n",
         "damage": 210,
         "element": "None",
         "memory": 80
@@ -1947,7 +1947,7 @@ window.chipData = [
         "id": 217,
         "name": "KnightManV3",
         "codes": "K*",
-        "description": " Smashes enemies in circle!\nLocation",
+        "description": " Smashes enemies in circle!\n",
         "damage": 260,
         "element": "None",
         "memory": 96
@@ -1956,7 +1956,7 @@ window.chipData = [
         "id": 218,
         "name": "MagnetMan",
         "codes": "M*",
-        "description": " Bipolar tackle on 1 enemy",
+        "description": " Bipolar tackle on 1 enemy.\n",
         "damage": 130,
         "element": "Elec",
         "memory": 48
@@ -1965,7 +1965,7 @@ window.chipData = [
         "id": 219,
         "name": "MagnetManV2",
         "codes": "M*",
-        "description": " Bipolar tackle on 1 enemy",
+        "description": " Bipolar tackle on 1 enemy.\n",
         "damage": 140,
         "element": "Elec",
         "memory": 64
@@ -1974,7 +1974,7 @@ window.chipData = [
         "id": 220,
         "name": "MagnetManV3",
         "codes": "M*",
-        "description": " Bipolar tackle on 1 enemy",
+        "description": " Bipolar tackle on 1 enemy.\n",
         "damage": 150,
         "element": "Elec",
         "memory": 80
@@ -1983,7 +1983,7 @@ window.chipData = [
         "id": 221,
         "name": "FreezeMan",
         "codes": "F*",
-        "description": " Rains icicles on enemies",
+        "description": " Rains icicles on enemies.\n",
         "damage": 50,
         "element": "Water",
         "memory": 64
@@ -1992,7 +1992,7 @@ window.chipData = [
         "id": 222,
         "name": "FreezeManV2",
         "codes": "F*",
-        "description": " Rains icicles on enemies",
+        "description": " Rains icicles on enemies.\n",
         "damage": 60,
         "element": "Water",
         "memory": 80
@@ -2001,7 +2001,7 @@ window.chipData = [
         "id": 223,
         "name": "FreezeManV3",
         "codes": "F*",
-        "description": " Rains icicles on enemies",
+        "description": " Rains icicles on enemies.\n",
         "damage": 70,
         "element": "Water",
         "memory": 96
@@ -2010,7 +2010,7 @@ window.chipData = [
         "id": 224,
         "name": "HeatMan",
         "codes": "H*",
-        "description": " Flame attack!  Range is 3",
+        "description": " Flame attack!  Range is 3.\n",
         "damage": 100,
         "element": "Fire",
         "memory": 64
@@ -2019,7 +2019,7 @@ window.chipData = [
         "id": 225,
         "name": "HeatManV2",
         "codes": "H*",
-        "description": " Flame attack!  Range is 3",
+        "description": " Flame attack!  Range is 3.\n",
         "damage": 130,
         "element": "Fire",
         "memory": 80
@@ -2028,7 +2028,7 @@ window.chipData = [
         "id": 226,
         "name": "HeatManV3",
         "codes": "H*",
-        "description": " Flame attack!  Range is 3",
+        "description": " Flame attack!  Range is 3.\n",
         "damage": 160,
         "element": "Fire",
         "memory": 96
@@ -2037,7 +2037,7 @@ window.chipData = [
         "id": 227,
         "name": "ToadMan",
         "codes": "T*",
-        "description": " Shocking melody paralyzes!\nLocation",
+        "description": " Shocking melody paralyzes!\n",
         "damage": 100,
         "element": "Elec",
         "memory": 28
@@ -2046,7 +2046,7 @@ window.chipData = [
         "id": 228,
         "name": "ToadManV2",
         "codes": "T*",
-        "description": " Shocking melody paralyzes!\nLocation",
+        "description": " Shocking melody paralyzes!\n",
         "damage": 140,
         "element": "Elec",
         "memory": 48
@@ -2055,7 +2055,7 @@ window.chipData = [
         "id": 229,
         "name": "ToadManV3",
         "codes": "T*",
-        "description": " Shocking melody paralyzes!\nLocation",
+        "description": " Shocking melody paralyzes!\n",
         "damage": 180,
         "element": "Elec",
         "memory": 68
@@ -2064,7 +2064,7 @@ window.chipData = [
         "id": 230,
         "name": "ThunMan",
         "codes": "T*",
-        "description": " Thunder attacks 3rd line",
+        "description": " Thunder attacks 3rd line.\n",
         "damage": 80,
         "element": "Elec",
         "memory": 30
@@ -2073,7 +2073,7 @@ window.chipData = [
         "id": 231,
         "name": "ThunManV2",
         "codes": "T*",
-        "description": " Thunder attacks 3rd line",
+        "description": " Thunder attacks 3rd line.\n",
         "damage": 130,
         "element": "Elec",
         "memory": 60
@@ -2082,7 +2082,7 @@ window.chipData = [
         "id": 232,
         "name": "ThunManV3",
         "codes": "T*",
-        "description": " Thunder attacks 3rd line",
+        "description": " Thunder attacks 3rd line.\n",
         "damage": 180,
         "element": "Elec",
         "memory": 90
@@ -2091,7 +2091,7 @@ window.chipData = [
         "id": 233,
         "name": "SnakeMan",
         "codes": "S*",
-        "description": " Main attack and snakes!\nLocation",
+        "description": " Main attack and snakes!\n",
         "damage": 30,
         "element": "Wood",
         "memory": 25
@@ -2100,7 +2100,7 @@ window.chipData = [
         "id": 234,
         "name": "SnakeManV2",
         "codes": "S*",
-        "description": " Main attack and snakes!\nLocation",
+        "description": " Main attack and snakes!\n",
         "damage": 40,
         "element": "Wood",
         "memory": 50
@@ -2109,7 +2109,7 @@ window.chipData = [
         "id": 235,
         "name": "SnakeManV3",
         "codes": "S*",
-        "description": " Main attack and snakes!\nLocation",
+        "description": " Main attack and snakes!\n",
         "damage": 50,
         "element": "Wood",
         "memory": 75
@@ -2118,7 +2118,7 @@ window.chipData = [
         "id": 236,
         "name": "GateMan",
         "codes": "G*",
-        "description": " 3 soldiers charge forward!\nLocation",
+        "description": " 3 soldiers charge forward!\n",
         "damage": 40,
         "element": "None",
         "memory": 24
@@ -2127,7 +2127,7 @@ window.chipData = [
         "id": 237,
         "name": "GateManV2",
         "codes": "G*",
-        "description": " 4 soldiers charge forward!\nLocation",
+        "description": " 4 soldiers charge forward!\n",
         "damage": 40,
         "element": "None",
         "memory": 40
@@ -2136,7 +2136,7 @@ window.chipData = [
         "id": 238,
         "name": "GateManV3",
         "codes": "G*",
-        "description": " 5 soldiers charge forward!\nLocation",
+        "description": " 5 soldiers charge forward!\n",
         "damage": 40,
         "element": "None",
         "memory": 56
@@ -2145,7 +2145,7 @@ window.chipData = [
         "id": 239,
         "name": "PharoMan",
         "codes": "P*",
-        "description": " Laser-shooting coffin ect",
+        "description": " Laser-shooting coffin ect.\n",
         "damage": 240,
         "element": "None",
         "memory": 32
@@ -2154,7 +2154,7 @@ window.chipData = [
         "id": 240,
         "name": "PharoManV2",
         "codes": "P*",
-        "description": " Laser-shooting coffin ect",
+        "description": " Laser-shooting coffin ect.\n",
         "damage": 270,
         "element": "None",
         "memory": 48
@@ -2163,7 +2163,7 @@ window.chipData = [
         "id": 241,
         "name": "PharoManV3",
         "codes": "P*",
-        "description": " Laser-shooting coffin ect",
+        "description": " Laser-shooting coffin ect.\n",
         "damage": 300,
         "element": "None",
         "memory": 64
@@ -2172,7 +2172,7 @@ window.chipData = [
         "id": 242,
         "name": "NapalmMan",
         "codes": "N*",
-        "description": " Bombs that even break panels!\nLocation",
+        "description": " Bombs that even break panels!\n",
         "damage": 220,
         "element": "Fire",
         "memory": 48
@@ -2181,7 +2181,7 @@ window.chipData = [
         "id": 243,
         "name": "NapalmManV2",
         "codes": "N*",
-        "description": " Bombs that even break panels!\nLocation",
+        "description": " Bombs that even break panels!\n",
         "damage": 240,
         "element": "Fire",
         "memory": 64
@@ -2190,7 +2190,7 @@ window.chipData = [
         "id": 244,
         "name": "NapalmManV3",
         "codes": "N*",
-        "description": " Bombs that even break panels!\nLocation",
+        "description": " Bombs that even break panels!\n",
         "damage": 260,
         "element": "Fire",
         "memory": 80
@@ -2199,7 +2199,7 @@ window.chipData = [
         "id": 245,
         "name": "PlanetMan",
         "codes": "P*",
-        "description": " Planet smashes 1 enemy!\nLocation",
+        "description": " Planet smashes 1 enemy!\n",
         "damage": 70,
         "element": "Wood",
         "memory": 64
@@ -2208,7 +2208,7 @@ window.chipData = [
         "id": 246,
         "name": "PlanetManV2",
         "codes": "P*",
-        "description": " Planet smashes 1 enemy!\nLocation",
+        "description": " Planet smashes 1 enemy!\n",
         "damage": 80,
         "element": "Wood",
         "memory": 80
@@ -2217,7 +2217,7 @@ window.chipData = [
         "id": 247,
         "name": "PlanetManV3",
         "codes": "P*",
-        "description": " Planet smashes 1 enemy!\nLocation",
+        "description": " Planet smashes 1 enemy!\n",
         "damage": 90,
         "element": "Wood",
         "memory": 96
@@ -2226,7 +2226,7 @@ window.chipData = [
         "id": 248,
         "name": "Bass",
         "codes": "F*",
-        "description": " Air-burst attack on all lines!\nLocation",
+        "description": " Air-burst attack on all lines!\n",
         "damage": 50,
         "element": "None",
         "memory": 96
@@ -2235,7 +2235,7 @@ window.chipData = [
         "id": 249,
         "name": "BassV2",
         "codes": "F*",
-        "description": " Air-burst attack on all lines!\nLocation",
+        "description": " Air-burst attack on all lines!\n",
         "damage": 60,
         "element": "None",
         "memory": 96
@@ -2244,13 +2244,12 @@ window.chipData = [
         "id": 250,
         "name": "BassV3",
         "codes": "X*",
-        "description": " Air-burst attack on all lines!\nLocation",
+        "description": " Air-burst attack on all lines!\n",
         "damage": 70,
         "element": "None",
         "memory": 96
     }
-];
-
+]
 
 // Data gathering and original text:
 
@@ -2413,8 +2412,7 @@ window.chipData = [
 // Location: Buy from NumberMan at any location.
 
 // #037 Muramasa
-// None NOTUW* 88/???: Sword that uses HPs to attack.  (Max HP – Current HP = 
-// Damage.)
+// None NOTUW* 88/???: Sword that uses HPs to attack.
 // Location: Shadowman V3, found in UnderNet 5.
 
 // #038 VarSwrd
@@ -2491,7 +2489,7 @@ window.chipData = [
 // Location: The Duty Free shop in the Departure Lobby in Netopia.
 
 // #054 Trident
-// None EIKOT* 30/060:
+// None EIKOT* 30/060: 3 volleys of spears
 // Location: WWW 1 NetDealer.
 
 // #055 Ratton1
@@ -2520,7 +2518,7 @@ window.chipData = [
 //           GMD in Undernet3.
 
 // #061 Blower
-// Fire PRTWZ* 22/020:
+// Fire PRTWZ* 22/020: WindBox blows at enemy area
 // Location: Trade with a guy in the alley in Netopia for a PopUp D.
 
 // #062 Burner
@@ -2613,7 +2611,7 @@ window.chipData = [
 
 // #083 Lance
 // Wood OPTVY* 20/090: A lance through back line.
-// Loaction: GMD in WWW3.
+// Location: GMD in WWW3.
 
 // #084 BrnzFist
 // None BNORS* 18/100: Fist of death!
@@ -2731,7 +2729,7 @@ window.chipData = [
 // Location: YumLand Area 2 in PMD.
 
 // #111 LavaDrag
-// Fire FGORY* 60/200: 
+// Fire FGORY* 60/200: Summons a nasty lava dragon!
 // Location: 24th Floor of the Kotobuki Apartment.
 
 // #112 GodStone
@@ -3021,7 +3019,7 @@ window.chipData = [
 // Location: UnderNet Area 7 in PMD.
 
 // #183 AntiNavi
-// None KLOTX* 32/000: Take the enemy’s Navi away.
+// None KLOTX* 32/000: Take the enemy's Navi away.
 // Location: WWW Area 3 in PMD.
 
 // #184 AntiRecv
@@ -3293,16 +3291,13 @@ window.chipData = [
 // test.shift();
 
 // console.log(test)
-// console.log(test)
-// console.log(parseInt("#004".substr(-3)))
-
 
 // test.forEach((x, i) => {
 //     cleanData.push({
 //         id: i + 1,
 //         name: x.split(" ")[1].split("\n")[0],
 //         codes: x.split("\n")[1].split(" ")[1],
-//         description: x.split(":")[1].split(".")[0],
+//         description: x.split(":")[1].split("Location")[0],
 //         damage: isNaN(parseInt(x.split("/")[1].split(" ")[0])) ? "???" : parseInt(x.split("/")[1].split(" ")[0]),
 //         element: x.split("\n")[1].split(" ")[0],
 //         memory: parseInt(x.split("/")[0].split(" ")[3]),

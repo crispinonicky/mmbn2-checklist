@@ -1,16 +1,16 @@
-console.log("Script loaded")
+//console.log("Script loaded")
 
 // Retrieve JSON chip data
 var chipData = window.chipData;
 
 // Loop through data to render page
 chipData.forEach((chip, i) => {
-    console.log(chip)
+    //console.log(chip)
     $("#main").append(`
-        <div class="row my-2">
+        <div class="chip-row col-sm-12 row py-3 border-bottom">
             <div class="col-sm-2">${chip.name}</div>
-            <div class="col-sm-5">${chip.description}</div>
-            <div class="chip-codes col-sm d-flex"></div>
+            <div class="col-sm-4">${chip.description}</div>
+            <div class="chip-codes col-sm-6 d-flex"></div>
         </div>
     `)
 
@@ -33,15 +33,15 @@ if (localStorage.getItem("checked") != null) {
     checked = localStorage.getItem("checked").split(",");
 
     checked.forEach(inputName => {
-        console.log(inputName)
+        //console.log(inputName)
         $(`input[name*='${inputName}']`).prop("checked", true);
     })
 }
 
 // Save checkbox inputs
 $("input").on("click", function() {
-    console.log($(this).attr("name"))
-    console.log($(this).is(':checked'))
+    //console.log($(this).attr("name"))
+    //console.log($(this).is(':checked'))
 
     let chipName = $(this).attr("name");
     let isChecked = $(this).is(':checked');
@@ -52,8 +52,8 @@ $("input").on("click", function() {
         checked.splice(checked.indexOf(chipName), 1);
     }
 
-    console.log(checked)
-    console.log(checked.toString());
+    // console.log(checked)
+    // console.log(checked.toString());
 
     localStorage.setItem("checked", checked.toString())
 

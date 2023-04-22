@@ -1,0 +1,7 @@
+#location-sidebar {
+    width: 30vw;
+    min-width: 300px;
+    position: absolute;
+    right: 0;
+    top: 120px;
+}
