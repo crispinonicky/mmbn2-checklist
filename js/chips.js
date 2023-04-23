@@ -1046,7 +1046,7 @@ window.chipData = [
     {
         "id": 117,
         "name": "LineOut",
-        "codes": "FHJQY*",
+        "codes": "FHJQT*",
         "description": " Destroy 1 line of panels!\n\n",
         "damage": 40,
         "element": "Fire",
@@ -2751,7 +2751,7 @@ window.chipData = [
 // None CENRY* 08/000: Destroy 3 panels in front.
 
 // #117 LineOut
-// Fire FHJQY* 24/040: Destroy 1 line of panels!
+// Fire FHJQT* 24/040: Destroy 1 line of panels!
 
 // #118 Catcher
 // None FIJNT* 12/000: Sends UFO to steal a chip.
