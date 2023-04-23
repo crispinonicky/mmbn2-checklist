@@ -33,7 +33,7 @@ $(".chip-checkbox").on("click", function() {
     if (isChecked) {
         checkedChips.push(chipName)
     } else {
-        checkedChips.splice(checked.indexOf(chipName), 1);
+        checkedChips.splice(checkedChips.indexOf(chipName), 1);
     }
 
     localStorage.setItem("checked", checkedChips.toString())
