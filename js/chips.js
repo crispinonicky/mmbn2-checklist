@@ -560,7 +560,7 @@ window.chipData = [
     {
         "id": 63,
         "name": "ZapRing1",
-        "codes": "1",
+        "codes": "AMPQW*",
         "description": " Paralyzing electric rings!\n",
         "damage": 20,
         "element": "Elec",
@@ -2526,7 +2526,7 @@ window.chipData = [
 // Location: Fishy2, found in UnderNet Area 4 and 5.
 
 // #063 ZapRing1
-// Elec 1 AMPQW* 12/020: Paralyzing electric rings!
+// Elec AMPQW* 12/020: Paralyzing electric rings!
 // Location:  Bunny, found in Den Area 2 and 3.
 
 // #064 ZapRing2
